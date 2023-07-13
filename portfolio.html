@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página Portfólio - portfólio</title>
+    <link rel="shortcut icon" href="img/graphic-design.png" type="image/x-icon">
+    <!-- link css materialize -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <!-- link icon google -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!-- link principal -->
+    <link rel="stylesheet" href="css/style_port.css">
+    <meta name="author" content="CodeGenius | Ilustrador e Web Designer - Gustavo Figueiredo">
+    <meta name="description" content="description">
+</head>
+<body>
+    <!-- menu -->
+<header>
+    <nav class="z-depth-0">
+        <div class="nav-wrapper">
+  
+          <a href="index.html" class="brand-logo"><img src="img/logotipo2.png" alt="logotipo do site"></a>
+          <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">dehaze</i></a>
+  
+          <ul class="right hide-on-med-and-down">
+            <li><a href="index.html">home</a></li>
+            <li><a href="index.html">quem somos</a></li>
+            <li><a href="#portfolio">portfólio</a></li>
+            <li><a href="#contato">contato</a></li>
+          </ul>
+        </div>
+  
+        <ul class="sidenav" id="mobile-demo">
+          <li><a href="index.html">home</a></li>
+          <li><a href="index.html">quem somos</a></li>
+          <li><a href="#portfolio">portfólio</a></li>
+          <li><a href="#contato">contato</a></li>
+        </ul>
+      </nav>
+</header>
+<!-- introdução -->
+<main>   
+    <h1>portfólio</h1>
+    <div class="container" >
+      <div class="row">
+        <div class="flex-container">
+          <a href="#"><img src="img/logotipo1.png" alt="logo da empresa"></a>
+          <a href="#"><img src="img/logotipo2.png" alt="logo da empresa"></a>
+          <a href="#"><img src="img/logotipo1.png" alt="logo da empresa"></a>
+          <a href="#"><img src="img/logotipo2.png" alt="logo da empresa"></a>
+          <a href="#"><img src="img/logotipo1.png" alt="logo da empresa"></a>
+        </div>
+      </div> <!-- fim row -->               
+    </div> <!-- fim container -->
+</main>
+
+<!-- contato -->
+<section id="contato">
+  <div class="container">
+    <h1>contato</h1>
+    <div class="row">
+        <form  class="box col s6">
+          <input class="mb2" type="text" id="nome" name="nome">
+          <input class="mb2" type="email" id="nome" name="nome">
+          <input class="mb2" type="text" id="nome" name="nome">
+        </form>
+        <form class="box col s6">
+          <textarea name="" id="" cols="10" rows="9" required></textarea>
+        </form>
+    </div>
+    <button type="button">Enviar</button>
+  </div>
+</section>
+
+<!-- telefone | email -->
+<section id="edr-eletronico">
+  <div class="container">
+    <div class="row">
+      <div class="esp col s6">
+        <h3>Telefone</h3>
+        <p>(33)1234-5678</p>
+        <p>(33)1234-5678</p>
+      </div>
+      <div class="esp col s6">
+        <h3>E-mail</h3>
+        <p>seuemail@gmail.com</p>
+        <p>seuemail@outlook.com</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- rodape -->
+<footer>
+  <div class="">
+    <div class="row">
+      <div class="box ">
+      <a href="index.html" class="brand-logo"><img src="img/logotipo2.png" alt="logotipo do site" width="100"></a>
+      <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Labore saepe eum cupiditate odit veniam sit perspiciatis</p>
+      </div> 
+
+      <div class="box">
+      <h4>segue nos</h4>
+      <p>redes sociais</p>
+      <div class="icon">
+        <a href="#"><i class="material-icons">house</i></a>
+        <a href="#"><i class="material-icons">house</i></a>
+        <a href="#"><i class="material-icons">house</i></a>  
+      </div>
+      </div>
+
+      <div class="box">
+      <h4>links</h4>
+      <ul>
+        <li><a href="index.html">home</a></li>
+        <li><a href="index.html">quem somos</a></li>
+        <li><a href="index.html">portfólio</a></li>
+        <li><a href="#contato">contato</a></li>
+      </ul>
+      </div>
+
+    </div> <!-- fim row -->
+  </div> <!-- fim container -->
+</footer>
+
+<footer id="copyright">
+  <div class="container">
+    <p>codegenius &copy; 2023. todos os direitos reservados.</p>
+  </div>
+</footer>
+
+<script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+<script>
+    //menu mobile
+    (function($){
+      $(function(){
+        $('.sidenav').sidenav();
+      }); // end of document ready
+    })(jQuery); // end of jQuery name space
+</script>
+<script src="anijs-master/dist/anijs.js"></script>
+</body>
+</html>
